@@ -46,7 +46,6 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -99,6 +98,11 @@ brew install ssh-copy-id
 brew install tree
 brew install webkit2png
 brew install zopfli
+
+brew install maven30
+brew install watch
+brew install istats
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
